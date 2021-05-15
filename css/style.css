@@ -19,37 +19,49 @@ body {
 
 /* Write all remaining styles here */
 
+header a{
+  text-decoration: none;
+  color: rgb(152,173,166);
+}
+header a:hover {
+  color: rgb(111,127,122);
+}
+
 h1 {
-  color: #98ADA6;
-  font-size: 5em;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
-  padding: 10px 0;
-  margin: 0;
+  color: rgb(152,173,166);
+  padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 6em;
+	font-weight: large;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
 }
 
-hr {
-  color: #CCCCCC;
+p {
+  font-size: 1em;
+  color: #555;
+  margin: 0 0 20px 0;
 }
-
 h2 {
-  color: #6F7F7A;
-  font-weight: bold;
+  color: rgb(111,127,122);
+  font-size: 2em;
 }
-
-#necklace {
-  border: 5px solid #98ADA6;
+#featured img {
+  border: 5px rgb(152,173,166) solid ;
 }
-
-a img {
-  transition: border 0.5s ease;
-  border: 5px solid #CCC;
+#Press img {
+  border:5px #ccc solid;
+  padding: 1px;
 }
-
-a img:hover {
-  border: 5px solid #6F7F7A;
+#Press img:hover {
+	border: 5px rgb(111,127,122) solid;
 }
-
-.footer {
+footer {
   text-align: right;
+  font-size:.8em;
+  font-weight: 100;
+}
+#About a {
+  color: #1783bb;
+  text-decoration: none;
 }
